@@ -23,5 +23,5 @@ def make_configfile(reset=False):
     """
     CONFIG_PATH.mkdir(parents=True, exist_ok=True)
     if not CONFIG_FILE.exists() or reset:
-        LOG.info(f"Copying default {{{cookiecutter.project_name}}} 'config.ini' file to {CONFIG_FILE}")
+        LOG.info(f"Copying default {NAME} 'config.ini' file to {CONFIG_FILE}")
         shutil.copy2(CONFIG_INI, CONFIG_FILE)
