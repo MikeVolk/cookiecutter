@@ -30,9 +30,15 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = ">=3.10, <4.0"
+python = ">=3.10, <3.12"
 coloredlogs = "^15.0"
 tomli = "^1.2"
+matplotlib = "^3.5.3"
+numpy = "^1.23.3"
+jupyterlab = "^3.4.6"
+scipy = "^1.9.1"
+Pint = "^0.19.2"
+
 
 [tool.poetry.dev-dependencies]
 autoflake = "*"

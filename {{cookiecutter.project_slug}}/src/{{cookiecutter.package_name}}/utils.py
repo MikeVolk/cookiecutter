@@ -4,8 +4,8 @@ import logging
 
 from {{cookiecutter.project_name}} import CONFIG_FILE, CONFIG_INI, CONFIG_PATH
 
-LOG = logging.getLogger({{cookiecutter.project_name}})
-NAME = {{cookiecutter.project_name}}
+LOG = logging.getLogger({{cookiecutter.package_name}})
+NAME = {{cookiecutter.PACKAGE_NAME}}
 
 def load_config():
     """
